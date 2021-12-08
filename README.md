@@ -74,4 +74,7 @@ $ git pull origin [base브랜치]   -> head에 담을 브랜치명 명시
 
 $ git checkout [브랜치]                  -> 최신화할 브랜치로 넘어가기 
 $ git stash                              -> 새브랜치 작업내용 저장
+$ git commit -am "stash 목록저장용"
 $ git reset --hard origin/[base브랜치]   -> fetch로 받은 내용으로 돌리기
+$ git stash apply                        -> apply로 머지할 내용 확인할것
+
