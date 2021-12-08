@@ -1,6 +1,9 @@
 **여기는 온갖 연습하는 Git**
 
+<<<<<<< HEAD
 **** 여러브랜치 pull/push연습****
+=======
+>>>>>>> 55ceb8a5fd3e68ea01af0926453e8506d5bd679f
 --rebase 사용
 1. 먼저 master 브랜치로 넘어오기
 git branch
