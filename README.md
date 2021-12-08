@@ -74,7 +74,7 @@ git stash apply
 다시 해보자...
 
 
-##정리해보면
+**결론 :: 정리해보면**
 ````
 git checkout [base브랜치]      -> 항상 최신화 되어있는 브랜치인지 확인 및 넘어가기
 git fetch                -> FETCH_HEAD에 담기
