@@ -1,19 +1,25 @@
 **여기는 온갖 연습하는 Git**
 
 **** 여러브랜치 pull/push연습****
---rebase 사용
+
+* rebase를 사용해 볼까 했다..그래서
+
 1. 먼저 master 브랜치로 넘어오기
+````
 git branch
 git checkout master
 git pull upstream master
+````
 
 2. 최신화 할 브랜치로 넘어가서 rebase사용하기
+````
 git checkout 브랜치명
 git rebase master
 git checkout master
 git merge 브랜치명 --ff
+````
 
-* rebase사용에서 에러 발생
+* 근데 rebase사용에서 에러 발생했따.
 ````
 error: cannot rebase: You have unstaged changes.
 error: Please commit or stash them.
